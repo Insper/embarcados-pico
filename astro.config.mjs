@@ -7,9 +7,9 @@ export default defineConfig({
   adapter: vercel(),
   integrations: [
     activeHandout({
-      title: "Developer Life",
+      title: "Computação Embarcada",
       description:
-        "Disciplina do 1o semestre do curso de Ciência da Computação do Insper",
+        "Sistemas que movem o mundo!",
       auth: true,
       useEmailAuth: true,
       useGoogleAuth: true,
