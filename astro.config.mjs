@@ -13,7 +13,7 @@ export default defineConfig({
       auth: true,
       useEmailAuth: false,
       useGoogleAuth: true,
-      useGitHubAuth: false,
+      useGitHubAuth: true,
       telemetry: true,
       lang: "pt",
       authPageImage: "/img/insper.png",
