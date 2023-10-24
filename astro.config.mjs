@@ -11,9 +11,9 @@ export default defineConfig({
       description:
         "Sistemas que movem o mundo!",
       auth: true,
-      useEmailAuth: true,
+      useEmailAuth: false,
       useGoogleAuth: true,
-      useGitHubAuth: true,
+      useGitHubAuth: false,
       telemetry: true,
       lang: "pt",
       authPageImage: "/img/insper.png",
